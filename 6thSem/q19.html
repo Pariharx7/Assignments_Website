@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester VI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="www.gdcassignments.netlify.app">Assignments :)</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="www.gdcassignments.netlify.app">Home</a></li>
+        <li><a href="www.gdcassignments.netlify.app">About</a></li>
+        <li><a href="www.akki69.prohosts.org">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <div class="about">
+    <div class="content">
+      <div class="title">Write a JavaScript program demonstrating switch statement. </div>
+      <br>
+      <br>
+      &lt;!DOCTYPE html&gt;
+      <br>
+&lt;html lang="en"&gt;
+<br>
+&lt;head&gt;
+<br>
+    &lt;title&gt;Question 19&lt;/title&gt;
+    <br>
+&lt;/head&gt;
+<br>
+&lt;body&gt;
+<br>
+
+   	 &lt;script&gt;
+     <br>
+       		const dayNo = 1;
+            <br>
+	switch (dayNo) {
+        <br>
+		case 1:
+        <br>
+		   document.write("Today is Sunday");
+           <br>
+		   break;
+           <br>
+		case 2:
+        <br>
+		   document.write("Today is Monday");
+           <br>
+		   break;
+           <br>
+		case 3:
+        <br>
+		   document.write("Today is Tuesday");
+           <br>
+		   break;
+           <br>
+		case 4:
+        <br>
+		   document.write("Today is Wednesday");
+           <br>
+		   break;
+           <br>
+		case 5:
+        <br>
+		   document.write("Today is Thursday");
+           <br>
+		   break;
+           <br>
+		case 6:
+        <br>
+		   document.write("Today is Friday");
+           <br>
+		   break;
+           <br>
+		case 7:
+        <br>
+		   document.write("Today is Saturday");
+           <br>
+		   break;
+           <br>
+		default:
+        <br>
+		   document.write("Invalid Day Number entered");
+           <br>
+		   
+           <br>
+}
+<br>
+         &lt;/script&gt;
+         <br>
+&lt;/body&gt;
+<br>
+&lt;/html&gt;
+<br>
+  
+      <br>
+      <br><br>
+      <h4>Output :</h4>
+      <img src="q19.jpg" alt="Internet Check kro">
+      <p><strong style="color:red;">NOTE :</strong> Please Draw the Output on Left side Blank Page</p>
+    </div>
+  </div>
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+</body>
+</html>

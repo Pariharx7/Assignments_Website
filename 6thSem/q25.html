@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester VI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="www.gdcassignments.netlify.app">Assignments :)</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="www.gdcassignments.netlify.app">Home</a></li>
+        <li><a href="www.gdcassignments.netlify.app">About</a></li>
+        <li><a href="www.akki69.prohosts.org">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <div class="about">
+    <div class="content">
+      <div class="title">Write a JavaScript program demonstrating the use of various mathematical functions. </div>
+      <br>
+      <br>
+      
+      &lt;!DOCTYPE html&gt;
+      <br>
+&lt;html lang="en"&gt;
+<br>
+&lt;head&gt;
+<br>
+&lt;title&gt;Question 25&lt;/title&gt;
+<br>
+&lt;/head&gt;
+<br>
+&lt;body&gt;
+<br>
+&lt;script&gt;
+<br>
+	<br>
+function myFunction() {
+    <br>
+<br>
+// abs()
+<br>
+document.write("The absolute value of -5 is: " + Math.abs(-5) +"&lt;br&gt;");
+<br>
+<br>
+// ceil()
+<br>
+document.write("The smallest integer greater than or equal to 3.14 is: " + Math.ceil(3.14) +"&lt;br&gt;");
+<br>
+
+<br>
+// floor()
+<br>
+document.write("The largest integer less than or equal to 3.14 is: " + Math.floor(3.14) +"&lt;br&gt;");
+<br>
+
+<br>
+// max()
+<br>
+document.write("The largest of 5 and 10 is: " + Math.max(5, 10) +"&lt;br&gt;");
+<br>
+
+<br>
+// min()
+<br>
+document.write("The smallest of 5 and 10 is: " + Math.min(5,10) +"&lt;br&gt;");
+<br>
+
+<br>
+//pow()
+<br>
+document.write("The 5 raised to power 2 is: " + Math.pow(5,2) +"&lt;br&gt;");
+<br>
+
+<br>
+//sqrt()
+<br>
+document.write("The square root of 16 is: " + Math.sqrt(16) +"&lt;br&gt;");
+<br>
+
+<br>
+}
+<br>
+<br>
+<br>
+myFunction();
+<br>
+<br>
+ 
+&lt;/script&gt;
+<br>
+&lt;/body&gt;
+<br>
+&lt;/html&gt;
+<br>
+  
+      <br>
+      <br><br>
+      <h4>Output :</h4>
+      <img src="q25.jpg" alt="Internet Check kro">
+      <p><strong style="color:red;">NOTE :</strong> Please Draw the Output on Left side Blank Page</p>
+    </div>
+  </div>
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+</body>
+</html>
